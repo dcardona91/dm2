@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Municipio</title>
+	<script type="text/javascript">
+		if (sessionStorage.getItem("usuario") === null) {
+		window.location.href = 'login.html';
+	}
+	</script>
+	<!--
+	===================== ESTILOS SISTEMA ========================
+	 -->
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	 <link rel="stylesheet" href="css/font-awesome.min.css">
+	 <link rel="stylesheet" href="css/normalize.css">
+	 <!--
+	=================== FIN ESTILOS SISTEMA ====================== 
+	===================== PLUGINS SISTEMA ========================
+	 -->	 
+	 <script type="text/javascript" src="js/jquery-2.2.4.min.js" ></script>	 
+	 <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+	 <script type="text/javascript" src="js/prefixfree.min.js" ></script>
+	  <!--
+	=================== FIN PLUGINS SISTEMA ====================== 
+	===================== ESTILOS PROPIOS ========================
+	 -->
+	 <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<input type="hidden" id="page-name" value="municipio">
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+<!-- 	<h3>Menu</h3> -->
+</nav>
+<header class="container">
+	<div class="row header-container">
+		<div class="col-xs-2">
+			<a href="" id="control-menu">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		<div class="col-xs-10 centrar titulo-seccion">
+			<figure>
+				<img src="images/logo.png" alt="">
+			</figure>
+		</div>
+	</div>
+</header>
+<div class="row">
+	<div class="col-xs-12">
+		<p>&nbsp;</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<p>&nbsp;</p>
+	</div>
+</div>
+<div id="mapa" class="container">
+	<div class="row centrar">
+		<figure>
+			<iframe id="map-viewer" src="" ></iframe>
+			<figcaption>
+				<div class="form-group">
+					<div class="input-group mb-2 mr-sm-2 mb-sm-0 centrar">
+						<div class="input-group-addon"><i class="fa fa-list-ul"></i><label for="slct-categoria">&nbsp;Categoría: </label></div>
+					    <select class="form-control" id="slct-categoria">
+						 </select>
+					</div>
+				 </div>			 
+			</figcaption>
+		</figure>
+	</div>	
+</div>
+<!--===================== SCRIPTS PROPIOS ========================-->
+<script type="text/javascript" src="js/custom.js" ></script>
+<script  type="text/javascript">
+	$('#cbp-spmenu-s1').click(function(e){
+		e.stopPropagation();
+	});
+
+	$("#control-menu").click(function(e) {
+		e.stopPropagation();
+		e.preventDefault();
+		$('#cbp-spmenu-s1').addClass('cbp-spmenu-open' );
+	});
+
+	$(document).click(function(e) {
+		$('#cbp-spmenu-s1').removeClass('cbp-spmenu-open' );
+	});
+</script>
+</body>
+</html>

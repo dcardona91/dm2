@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Municipio</title>
+	<script type="text/javascript">
+		if (sessionStorage.getItem("usuario") === null) {
+		window.location.href = 'login.html';
+	}
+	</script>
+	<!--
+	===================== ESTILOS SISTEMA ========================
+	 -->
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	 <link rel="stylesheet" href="css/font-awesome.min.css">
+	 <link rel="stylesheet" href="css/normalize.css">
+	 <!--
+	=================== FIN ESTILOS SISTEMA ====================== 
+	===================== PLUGINS SISTEMA ========================
+	 -->	 
+	 <script type="text/javascript" src="js/jquery-2.2.4.min.js" ></script>	 
+	 <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+	 <script type="text/javascript" src="js/prefixfree.min.js" ></script>
+	  <!--
+	=================== FIN PLUGINS SISTEMA ====================== 
+	===================== ESTILOS PROPIOS ========================
+	 -->
+	 <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<input type="hidden" id="page-name" value="informes">
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+<!-- 	<h3>Menu</h3> -->
+</nav>
+<header class="container">
+	<div class="row header-container">
+		<div class="col-xs-2">
+			<a href="" id="control-menu">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		<div class="col-xs-10 centrar titulo-seccion">
+			<figure>
+				<img src="images/logo.png" alt="">
+			</figure>
+		</div>
+	</div>
+</header>
+<div id="informes" class="container">
+	<form  action="informe-detalle.html" method="get">
+		<div class="row">
+		<div class="col-xs-12 centrar">
+			<p>&nbsp;</p>
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-xs-12 centrar">
+			<h4>Generar informe</h4>
+		</div>
+		<div class="col-xs-12 centrar">
+			<div class="form-group">
+				<div class="input-group mb-2 mr-sm-2 mb-sm-0 centrar">
+					<div class="input-group-addon"><label for="slct-comuna">Comuna:</label></div>
+				    <select name="idc" class="form-control" id="slct-comuna">
+				    	<option value="todo">Todas las comunas</option>
+					 </select>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<p>&nbsp;</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 centrar">
+			<label for="chk-categoria">Homicidios:</label>		
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-xs-6 centrar">
+			<h4>Si</h4>
+		</div>
+		<div class="col-xs-6 centrar">
+			<h4>No</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<input type="radio" class="form-control chk-categoria" name="homicidios" value="si" checked>
+		</div>
+		<div class="col-xs-6">
+			<input type="radio" class="form-control chk-categoria" name="homicidios" value="no">
+		</div>
+	</div>
+	<!--  -->
+	<div class="row">
+		<div class="col-xs-12">
+			<p>&nbsp;</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 centrar">
+			<label for="chk-categoria">Hurtos:</label>		
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-xs-6 centrar">
+			<h4>Si</h4>
+		</div>
+		<div class="col-xs-6 centrar">
+			<h4>No</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<input type="radio" class="form-control chk-categoria" name="hurtos" value="si" checked>
+		</div>
+		<div class="col-xs-6">
+			<input type="radio" class="form-control chk-categoria" name="hurtos" value="no">
+		</div>
+	</div>
+	<!--  -->
+	<div class="row">
+		<div class="col-xs-12">
+			<p>&nbsp;</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 centrar">
+			<label for="chk-categoria">Obras:</label>		
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-xs-6 centrar">
+			<h4>Si</h4>
+		</div>
+		<div class="col-xs-6 centrar">
+			<h4>No</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<input type="radio" class="form-control chk-categoria" name="obras" value="si" checked>
+		</div>
+		<div class="col-xs-6">
+			<input type="radio" class="form-control chk-categoria" name="obras" value="no">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<p>&nbsp;</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 centrar">
+			<div class="form-group">
+				<input type="submit" value="Generar" class="btn btn-success">
+			</div>
+		</div>
+	</div>
+	</form>
+</div>
+<!--===================== SCRIPTS PROPIOS ========================-->
+<script type="text/javascript" src="js/custom.js" ></script>
+<script  type="text/javascript">
+	$('#cbp-spmenu-s1').click(function(e){
+		e.stopPropagation();
+	});
+
+	$("#control-menu").click(function(e) {
+		e.stopPropagation();
+		e.preventDefault();
+		$('#cbp-spmenu-s1').addClass('cbp-spmenu-open' );
+	});
+
+	$(document).click(function(e) {
+		$('#cbp-spmenu-s1').removeClass('cbp-spmenu-open' );
+	});
+</script>
+</body>
+</html>

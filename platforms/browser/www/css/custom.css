@@ -1,0 +1,430 @@
+body,
+html {
+    font-size: 16px;
+    padding-top: 2em;
+    height: 100%;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.izq {
+    text-align: left;
+}
+
+.der {
+    text-align: right;
+}
+
+figure img {
+    width: 100%;
+}
+
+header.container {
+    background: #fff;
+    width: 100%!important;
+    position: fixed;
+    top: 0;
+    z-index: 999999999999999999999999999999999999999999999999;
+    min-height: 70px;
+    box-shadow: 0px 0px 17px rgba(136, 136, 136, 0.76);
+}
+
+header .header-container {
+    margin-top: 0.8em;
+}
+
+header .header-container a#control-menu i {
+    font-size: 2.5em!important;
+    color: #2b73b6;
+}
+
+header .header-container .titulo-seccion figure {
+    padding: 0;
+    margin: 0;
+    max-height: 70px;
+    text-align: center;
+}
+
+header .header-container .titulo-seccion figure img {
+    height: 100%;
+    width: 77%!important;
+    margin-left: 24%;
+    max-height: 70px;
+    max-width: 270px;
+    margin-top: -4px!important;
+}
+
+
+/*
+======================================================
+============== INICIO ESTILOS DE MENU ================
+======================================================
+*/
+
+.cbp-spmenu {
+    background: #4690d4;
+    position: fixed;
+}
+
+.cbp-spmenu h3 {
+    color: #afdefa;
+    font-size: 1.9em;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    background: #0d77b6;
+}
+
+.cbp-spmenu a {
+    display: block;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.cbp-spmenu a:hover {
+    background: #2b73b6;
+}
+
+.cbp-spmenu a:active {
+    background: #2b73b6;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cbp-spmenu-vertical {
+    width: 240px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+    border-bottom: 1px solid #2b73b6;
+    padding: 1em;
+}
+
+.cbp-spmenu-left {
+    left: -240px;
+    top: 70px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+    left: 0px;
+    top: 70px;
+}
+
+
+/* Transiciones */
+
+.cbp-spmenu {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-height: 26.375em) {
+    .cbp-spmenu-vertical {
+        font-size: 90%;
+        width: 190px;
+    }
+    .cbp-spmenu-left {
+        left: -190px;
+    }
+}
+
+
+/*
+======================================================
+================ FIN ESTILOS DE MENU =================
+======================================================
+*/
+
+
+/*
+======================================================
+=============== INICIO ESTILOS LOGIN =================
+======================================================
+*/
+
+.danger {
+    color: tomato;
+}
+
+
+/*
+======================================================
+================ FIN ESTILOS LOGIN ===================
+======================================================
+*/
+
+
+/*
+======================================================
+============== INICIO ESTILOS MUNICIPIO ==============
+======================================================
+*/
+
+#mapa figure {
+    margin: 0;
+    position: relative;
+}
+
+#mapa figure iframe {
+    border: none;
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: block;
+    margin: 0 auto;
+}
+
+#mapa figure figcaption {
+    position: absolute;
+    top: 2%;
+    left: 0;
+    right: 0;
+}
+
+
+/*
+======================================================
+================ FIN ESTILOS MUNICIPIO ===============
+======================================================
+*/
+
+
+/*
+======================================================
+============== INICIO ESTILOS DETALLE COMUNA =========
+======================================================
+*/
+
+#detalle-comuna ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.indicador-valor p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.indicador {
+    position: relative;
+    height: 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,45c429+49,45c429+49,ea2c2c+49,ea2c2c+49,ea2c2c+49,000000+100 */
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ffffff 0%, #45c429 49%, #45c429 49%, #ea2c2c 49%, #ea2c2c 49%, #ea2c2c 49%, #000000 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ffffff 0%, #45c429 49%, #45c429 49%, #ea2c2c 49%, #ea2c2c 49%, #ea2c2c 49%, #000000 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ffffff 0%, #45c429 49%, #45c429 49%, #ea2c2c 49%, #ea2c2c 49%, #ea2c2c 49%, #000000 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
+    /* IE6-9 */
+}
+
+.indicador .puntero {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 25px solid #a2a2a2;
+    position: absolute;
+    left: calc(50% - 12px);
+    bottom: -15px;
+}
+
+
+/*
+======================================================
+=========== FIN ESTILOS DETALLE COMUNA ===============
+======================================================
+*/
+
+
+/*
+======================================================
+============ INICIO ESTILOS DETALLE  INFORME =========
+======================================================
+*/
+
+#img-user {
+border-radius: 100%;
+    border: 3px solid #26292e;
+    width: 60%;
+    padding: 7px;
+    position: relative;
+    top: 17px;
+}
+
+.usuario-nombre {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8em;
+    color: #333;
+    top: 20px!important;
+    position: relative!important;
+}
+
+.usuario-cargo {
+    font-size: 1em;
+    color: #333;
+    top: 6px!important;
+    letter-spacing: 5px!important;
+    position: relative!important;
+}
+
+.nombre-municipio {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8em;
+    color: #fff;
+    width: 100%;
+    padding: 8px;
+    background: #3c763d;
+    text-transform: uppercase;
+}
+
+.centerTitle {
+    background: #3c763d;
+}
+
+.estadisticas {
+    background: rgb(67, 162, 69);
+    width: 100%;
+    margin: auto;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    border-bottom: 10px solid #ec2620;
+    margin-top: -30px;
+    background-image: url('../images/background/background-estadisticas.jpg');
+    background-size: 100%;
+}
+
+.der p {
+    color: #333;
+    text-align: left;
+}
+
+.der {
+    background: rgba(255, 255, 255, 0.8);
+    width: 34%;
+    margin-left: 5%;
+    padding-right: 18px;
+    padding-top: 2px;
+    border-bottom: 1px solid #5a5a5a;
+}
+
+.izq p {
+    color: #333;
+}
+
+.izq {
+    background: rgba(255, 255, 255, 0.8);
+    width: 55%;
+    margin-left: 1%;
+    padding-right: 18px;
+    padding-top: 2px;
+    border-bottom: 1px solid #5a5a5a;
+}
+
+#municipio {
+    margin-top: -9%;
+}
+
+#logo {
+    width: 77%!important;
+    max-height: none!important;
+    max-width: none!important;
+    margin-top: -19px!important;
+    margin-top: -4px!important;
+    margin-left: 24%;
+}
+
+figure.logo-imagen {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+input#user {
+    height: 59px;
+    background: rgba(255, 255, 255, 0.66);
+    border-radius: 0px;
+}
+
+input#pass {
+    height: 59px;
+    background: rgba(255, 255, 255, 0.66);
+    border-radius: 0px;
+}
+
+.btn-success {
+    border-color: #00ade5;
+    background: #00ade5;
+    height: 49px;
+    border-radius: 0px!important;
+}
+
+.btn-success.active.focus,
+.btn-success.active:focus,
+.btn-success.active:hover,
+.btn-success:active.focus,
+.btn-success:active:focus,
+.btn-success:active:hover,
+.open>.dropdown-toggle.btn-success.focus,
+.open>.dropdown-toggle.btn-success:focus,
+.open>.dropdown-toggle.btn-success:hover {
+    color: #fff;
+    background-color: #0072c0;
+    border-color: #0072c0;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #0172c0;
+    border-color: #0072c0;
+}
+
+#logo-login{
+    width: 59%;
+    top: -78px;
+    position: relative;
+}
+
+#frm-login{
+
+	margin-top: -98px;
+    position: relative;
+
+}
+
+#mapa figure figcaption{
+position: absolute;
+top: -9%;
+left: 0;
+right: 0;
+}
+
+.input-group.mb-2.mr-sm-2.mb-sm-0.centrar {
+    position: relative;
+    top: -3px;
+}
+
+select#slct-categoria {
+    border-radius: 0px;
+        height: 33px;
+}
+
+/*.col-xs-12 {
+    display: none!important;
+}*/
+input#btn-login {
+    margin-top: 3%;
+}
+
+.input-group-addon {
+    height: 33px;
+    border-radius: 0px;
+}

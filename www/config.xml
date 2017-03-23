@@ -1,0 +1,5 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="dm2" version="1.0.0">
+  <name>dm2</name>
+  <description>Dashboard de Manejo Municipal - Aplicacion de control de estadisticas municipales.</description>
+  <author href="http://itagui.gov.co" email="alonsoloaiza@gmail.com">Alcaldia de Itagüi</author>
+</widget>

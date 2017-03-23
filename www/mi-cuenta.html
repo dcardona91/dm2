@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Municipio</title>
+	<script type="text/javascript">
+		if (sessionStorage.getItem("usuario") === null) {
+		window.location.href = '/login.html';
+	}
+	</script>
+	<!--
+	===================== ESTILOS SISTEMA ========================
+	 -->
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	 <link rel="stylesheet" href="css/font-awesome.min.css">
+	 <link rel="stylesheet" href="css/normalize.css">
+	 <!--
+	=================== FIN ESTILOS SISTEMA ====================== 
+	===================== PLUGINS SISTEMA ========================
+	 -->	 
+	 <script type="text/javascript" src="js/jquery-2.2.4.min.js" ></script>	 
+	 <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+	 <script type="text/javascript" src="js/prefixfree.min.js" ></script>
+	  <!--
+	=================== FIN PLUGINS SISTEMA ====================== 
+	===================== ESTILOS PROPIOS ========================
+	 -->
+	 <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<input type="hidden" id="page-name" value="mi-cuenta">
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+<!-- 	<h3>Menu</h3> -->
+</nav>
+<header class="container">
+	<div class="row header-container">
+		<div class="col-xs-2">
+			<a href="" id="control-menu">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		<div class="col-xs-10 centrar titulo-seccion">
+			<figure>
+				<img src="images/logo.png" alt="">
+			</figure>
+		</div>
+	</div>
+</header>
+<div class="row">
+	<div class="col-xs-12">
+		<p>&nbsp;</p>
+	</div>
+</div>
+<div id="mi-cuenta" class="container">	
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="form-group col-xs-4">
+			    	<label for="correo">Correo</label>			    
+				</div>
+				<div class="form-group col-xs-8">
+					<input type="email" class="form-control" id="correo">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-xs-4">
+			    	<label for="usuario">Usuario</label>			    
+				</div>
+				<div class="form-group col-xs-8">
+					<input type="text" class="form-control" id="usuario">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-xs-4">
+			    	<label for="pnom">Primer nombre</label>			    
+				</div>
+				<div class="form-group col-xs-8">
+					<input type="text" class="form-control" id="pnom">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-xs-4">
+			    	<label for="snom">Segundo nombre</label>			    
+				</div>
+				<div class="form-group col-xs-8">
+					<input type="text" class="form-control" id="snom">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-xs-4">
+			    	<label for="pape">Primer apellido</label>			    
+				</div>
+				<div class="form-group col-xs-8">
+					<input type="text" class="form-control" id="pape">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-xs-4">
+			    	<label for="sape">Segundo apellido</label>			    
+				</div>
+				<div class="form-group col-xs-8">
+					<input type="text" class="form-control" id="sape">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-xs-4">
+			    	<label for="ocupacion">Cargo</label>			    
+				</div>
+				<div class="form-group col-xs-8">
+					<input type="text" class="form-control" id="ocupacion">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 centrar">
+					<figure>
+						<img id="img" src="" alt="usuario actual">
+					</figure>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 centrar">
+					<input type="submit" value="actualizar" class="btn btn-primary">
+				</div>
+			</div>
+		</form>	
+		<div class="row">
+			<div class="col-xs-12">
+				<p>&nbsp;</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--===================== SCRIPTS PROPIOS ========================-->
+<script type="text/javascript" src="js/custom.js" ></script>
+<script  type="text/javascript">
+	$('#cbp-spmenu-s1').click(function(e){
+		e.stopPropagation();
+	});
+
+	$("#control-menu").click(function(e) {
+		e.stopPropagation();
+		e.preventDefault();
+		$('#cbp-spmenu-s1').addClass('cbp-spmenu-open' );
+	});
+
+	$(document).click(function(e) {
+		$('#cbp-spmenu-s1').removeClass('cbp-spmenu-open' );
+	});
+</script>
+</body>
+</html>

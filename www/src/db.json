@@ -1,0 +1,176 @@
+{
+	"menu": [
+				{"nombre":"Mapas", "icon": "fa fa-map-marker", "categoria":"obras", "href" : "municipio.html"},
+				{"nombre":"Mi cuenta", "icon": "fa fa-user", "categoria":"obras", "href" : "mi-cuenta.html"},
+				{"nombre":"Informes", "icon": "fa fa-times", "categoria":"informes", "href" : "informes.html"}
+			],
+	"municipios": {"id": "itg", "nombre" : "Itagüí",	"estadisticas" : [
+						{"indicador" : "Temperatura", "valor" : 32, "icono" : "fa fa-thermometer"},
+						{"indicador" : "Población", "valor" : 278660, "icono" : "fa fa-users"},
+						{"indicador" : "Superficie", "valor" : 21.09, "icono" : "fa fa-map"},
+						{"indicador" : "Altitud" , "valor" : 1550, "icono" : "fa fa-long-arrow-up"},
+						{"indicador" : "Coordenadas" , "valor" : "6°10′21″N 75°36′35″O", "icono" : "fa fa-map-marker"}			
+					],
+				"categorias" : [ 
+								{"id" : "homicidios", "categoria" : "Homicidios" },
+								{"id" : "hurtos", "categoria" : "Hurtos" },
+								{"id" : "obras", "categoria" : "Obras" }
+							],
+				"comunas": [
+				{"numero" : "1",
+					"tipo" : "urbano",
+					"fecha_mod" : "18/03/2017", 
+					"medias" : [
+								{"indicador" : "homicidios", "valor" : 35, "historial" : [{"ano": 2016, "valor" : 42}, { "ano" : 2015, "valor" : 27}]},
+								{"indicador" : "hurtos", "valor" : 112, "historial" : [{"ano": 2016, "valor" : 110}, { "ano" : 2015, "valor" : 135}]},
+								{"indicador" : "obras", "" : 7, "historial" : [{"ano": 2016, "valor" : 6}, { "ano" : 2015, "valor" : 4}]}
+					],
+				 "barrios": [
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":12}]}, "hurtos" : {"actual" : 10 , "historial" : [{"año":2016, "valor":25}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Zona Industrial Nº1", "poblacion" : 251 },
+						{ "homicidios" : {"actual" : 2 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Zona Industrial Nº2", "poblacion" : 254 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":5}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 3 , "historial" : ""}, "nombre" : "La Independencia", "poblacion" : 4056 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "San Juan Bautista", "poblacion" : 1180 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 5 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "San José", "poblacion" : 5212 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 6 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Araucaria", "poblacion" : 1600 },
+						{ "homicidios" : {"actual" : 3 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 7 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "La Gloria", "poblacion" : 4458 },
+						{ "homicidios" : {"actual" : 2 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":3}]}, "obras" : {"actual" : 2 , "historial" : ""}, "nombre" : "Las Mercedes", "poblacion" : 2950 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":5}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Centro", "poblacion" : 12216 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":3}]}, "obras" : {"actual" : 1 , "historial" : ""}, "nombre" : "Asturias", "poblacion" : 2766 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":5}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Los Naranjos", "poblacion" : 5234 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 7 , "historial" : [{"año":2016, "valor":7}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Villa Paula", "poblacion" : 2858 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":2}]}, "hurtos" : {"actual" : 8 , "historial" : [{"año":2016, "valor":8}]}, "obras" : {"actual" : 1 , "historial" : ""}, "nombre" : "Artex", "poblacion" : 1359 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":9}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Playa Rica", "poblacion" : 6140 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 4 , "historial" : [{"año":2016, "valor":10}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Satexco", "poblacion" : 854 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 10 , "historial" : [{"año":2016, "valor":20}]}, "obras" : {"actual" : 2 , "historial" : ""}, "nombre" : "San Isidro", "poblacion" : 4056 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":10}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "La Santa Cruz", "poblacion" : 1245 }
+
+					]
+				},
+				{
+					"numero" : "2",
+					"tipo" : "urbano",
+					"fecha_mod" : "18/03/2017", 
+					"medias" : [
+								{"indicador" : "homicidios", "valor" : 40, "historial" : [{"ano": 2016, "valor" : 42}, { "ano" : 2015, "valor" : 38}]},
+								{"indicador" : "hurtos", "valor" : 78, "historial" : [{"ano": 2016, "valor" : 65}, { "ano" : 2015, "valor" : 70}]},
+								{"indicador" : "obras", "" : 7, "historial" : [{"ano": 2016, "valor" : 6}, { "ano" : 2015, "valor" : 4}]}
+					],
+					"barrios": [
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 5 , "historial" : ""}, "nombre" : "Santa Catalina", "poblacion" : 1784 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":10}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Samaria Robles de Sur", "poblacion" : 1323 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":3}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "La Finca", "poblacion" : 3487 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 10 , "historial" : [{"año":2016, "valor":15}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Yarumito", "poblacion" : 6106 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":2}]}, "obras" : {"actual" : 6 , "historial" : ""}, "nombre" : "El Palmar", "poblacion" : 1889 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":2}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":2}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Santa Ana", "poblacion" : 1640 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 5 , "historial" : [{"año":2016, "valor":10}]}, "obras" : {"actual" : 10 , "historial" : ""}, "nombre" : "Samaria Nº1", "poblacion" : 1323 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 6 , "historial" : [{"año":2016, "valor":9}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Las Margaritas", "poblacion" : 3186 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":20}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Malta", "poblacion" : 368 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 7 , "historial" : [{"año":2016, "valor":3}]}, "obras" : {"actual" : 12 , "historial" : ""}, "nombre" : "Monte Verde", "poblacion" : 4016 },
+						{ "homicidios" : {"actual" : 2 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":4}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Camparola", "poblacion" : 3845 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 20 , "historial" : [{"año":2016, "valor":30}]}, "obras" : {"actual" : 15 , "historial" : ""}, "nombre" : "San Pio X", "poblacion" : 4858 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 30 , "historial" : [{"año":2016, "valor":45}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "La Palma", "poblacion" : 4163 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":2}]}, "hurtos" : {"actual" : 40 , "historial" : [{"año":2016, "valor":40}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Jardines Montesacro", "poblacion" : 410 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":2}]}, "hurtos" : {"actual" : 20 , "historial" : [{"año":2016, "valor":24}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Zona Industrial Nº3", "poblacion" : 252 }
+					]
+				},
+				{
+					"numero" : "3",
+					"tipo" : "urbano",
+					"fecha_mod" : "18/03/2017", 
+					"medias" : [
+								{"indicador" : "homicidios", "valor" : 25, "historial" : [{"ano": 2016, "valor" : 22}, { "ano" : 2015, "valor" : 27}]},
+								{"indicador" : "hurtos", "valor" : 220, "historial" : [{"ano": 2016, "valor" : 250}, { "ano" : 2015, "valor" : 252}]},
+								{"indicador" : "obras", "" : 7, "historial" : [{"ano": 2016, "valor" : 6}, { "ano" : 2015, "valor" : 4}]}
+					],
+					"barrios": [
+						{ "homicidios" : {"actual" : 2 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 10 , "historial" : [{"año":2016, "valor":23}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Las Brisas", "poblacion" : 561 },
+						{ "homicidios" : {"actual" : 3 , "historial" : [{"año":2016, "valor":1}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":2}]}, "obras" : {"actual" : 3 , "historial" : ""}, "nombre" : "Pilsen", "poblacion" : 1438 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 3 , "historial" : [{"año":2016, "valor":10}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "San Javier", "poblacion" : 2352 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 40 , "historial" : [{"año":2016, "valor":66}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Villa Lia", "poblacion" : 2256 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 5 , "historial" : [{"año":2016, "valor":15}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "19 de Abril", "poblacion" : 4623 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 3 , "historial" : [{"año":2016, "valor":12}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "San Gabriel", "poblacion" : 3190 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":5}]}, "hurtos" : {"actual" : 5 , "historial" : [{"año":2016, "valor":10}]}, "obras" : {"actual" : 4 , "historial" : ""}, "nombre" : "San Antonio", "poblacion" : 2910 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 3 , "historial" : [{"año":2016, "valor":13}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Triana", "poblacion" : 543 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":1}]}, "hurtos" : {"actual" : 7 , "historial" : [{"año":2016, "valor":20}]}, "obras" : {"actual" : 6 , "historial" : ""}, "nombre" : "Ditaires", "poblacion" : 11810 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":2}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":2}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "San Francisco", "poblacion" : 3391 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":5}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Glorieta Pilsen", "poblacion" : 638 }
+					]
+				},
+				{
+					"numero" : "4",
+					"tipo" : "urbano",
+					"fecha_mod" : "18/03/2017", 
+					"medias" : [
+								{"indicador" : "homicidios", "valor" : 12, "historial" : [{"ano": 2016, "valor" : 28}, { "ano" : 2015, "valor" : 14}]},
+								{"indicador" : "hurtos", "valor" : 12, "historial" : [{"ano": 2016, "valor" : 35}, { "ano" : 2015, "valor" : 70}]},
+								{"indicador" : "obras", "" : 7, "historial" : [{"ano": 2016, "valor" : 6}, { "ano" : 2015, "valor" : 4}]}
+					],
+					"barrios": [
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":3}]}, "obras" : {"actual" : 5 , "historial" : ""}, "nombre" : "Santa Maria Nº 1", "poblacion" : 3963 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":5}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Santa Maria Nº 2", "poblacion" : 21164 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":2}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Santa Maria Nº 3", "poblacion" : 23068 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "La Esmeralda", "poblacion" : 3882 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":5}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Simón Bolivar", "poblacion" : 9164 },
+						{ "homicidios" : {"actual" : 2 , "historial" : [{"año":2016, "valor":5}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":7}]}, "obras" : {"actual" : 3 , "historial" : ""}, "nombre" : "San Fernando", "poblacion" : 8383 },
+						{ "homicidios" : {"actual" : 4 , "historial" : [{"año":2016, "valor":2}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Entre colinas", "poblacion" : 3653 }
+					]
+				},
+				{
+					"numero" : "5",
+					"tipo" : "urbano",
+					"fecha_mod" : "18/03/2017", 
+					"medias" : [
+								{"indicador" : "homicidios", "valor" : 24, "historial" : [{"ano": 2016, "valor" : 22}, { "ano" : 2015, "valor" : 20}]},
+								{"indicador" : "hurtos", "valor" : 10, "historial" : [{"ano": 2016, "valor" : 30}, { "ano" : 2015, "valor" : 12}]},
+								{"indicador" : "obras", "" : 7, "historial" : [{"ano": 2016, "valor" : 6}, { "ano" : 2015, "valor" : 4}]}
+					],
+					"barrios": [
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Las Acacias", "poblacion" : 902 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":2}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 2 , "historial" : ""}, "nombre" : "Las Américas", "poblacion" : 1163 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "El Tablazo", "poblacion" : 7330 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Calatrava", "poblacion" : 8826 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 3 , "historial" : ""}, "nombre" : "Loma Linda", "poblacion" : 1410 },
+						{ "homicidios" : {"actual" : 2 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Terranova Nº 1 y Nº 2", "poblacion" : 4601 },
+						{ "homicidios" : {"actual" : 3 , "historial" : [{"año":2016, "valor":2}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 4 , "historial" : ""}, "nombre" : "La Aldea", "poblacion" : 9214 },
+						{ "homicidios" : {"actual" : 4 , "historial" : [{"año":2016, "valor":2}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":1}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Balcones de Sevilla", "poblacion" : 4206 }
+					]
+				},
+				{
+					"numero" : "6",
+					"tipo" : "urbano",
+					"fecha_mod" : "18/03/2017", 
+					"medias" : [
+								{"indicador" : "homicidios", "valor" : 40, "historial" : [{"ano": 2016, "valor" : 33}, { "ano" : 2015, "valor" : 42}]},
+								{"indicador" : "hurtos", "valor" : 38, "historial" : [{"ano": 2016, "valor" : 38}, { "ano" : 2015, "valor" : 27}]},
+								{"indicador" : "obras", "" : 7, "historial" : [{"ano": 2016, "valor" : 6}, { "ano" : 2015, "valor" : 4}]}
+					],
+					"barrios": [
+						{ "homicidios" : {"actual" : 5 , "historial" : [{"año":2016, "valor":10}]}, "hurtos" : {"actual" : 10 , "historial" : [{"año":2016, "valor":15}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Fátima", "poblacion" : 4937 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 6 , "historial" : [{"año":2016, "valor":30}]}, "obras" : {"actual" : 10 , "historial" : ""}, "nombre" : "El Rosario", "poblacion" : 9047 },
+						{ "homicidios" : {"actual" : 2 , "historial" : [{"año":2016, "valor":5}]}, "hurtos" : {"actual" : 7 , "historial" : [{"año":2016, "valor":14}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "La Unión", "poblacion" : 2060 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 3 , "historial" : [{"año":2016, "valor":32}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Santa María La Nueva", "poblacion" : 3097 }
+					]
+				},
+				{
+					"numero" : "7",
+					"tipo" : "rural",
+					"fecha_mod" : "18/03/2017", 
+					"medias" : [
+								{"indicador" : "homicidios", "valor" : 35, "historial" : [{"ano": 2016, "valor" : 33}, { "ano" : 2015, "valor" : 32}]},
+								{"indicador" : "hurtos", "valor" : 36, "historial" : [{"ano": 2016, "valor" : 40}, { "ano" : 2015, "valor" : 34}]},
+								{"indicador" : "obras", "" : 7, "historial" : [{"ano": 2016, "valor" : 6}, { "ano" : 2015, "valor" : 4}]}
+					],
+					"barrios": [
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":1}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "La María", "poblacion" : 1156 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 12 , "historial" : ""}, "nombre" : "Los Olivares", "poblacion" : 2282 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":10}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Loma de los Zuleta", "poblacion" : 2096 },
+						{ "homicidios" : {"actual" : 1 , "historial" : [{"año":2016, "valor":1}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 2 , "historial" : ""}, "nombre" : "El Progreso", "poblacion" : 2099 },
+						{ "homicidios" : {"actual" : 2 , "historial" : [{"año":2016, "valor":3}]}, "hurtos" : {"actual" : 5 , "historial" : [{"año":2016, "valor":15}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "El Pedregal", "poblacion" : 1015 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 30 , "historial" : ""}, "nombre" : "Los Gómez", "poblacion" : 3185 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":12}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "El Ajizal", "poblacion" : 4047 },
+						{ "homicidios" : {"actual" : 0 , "historial" : [{"año":2016, "valor":4}]}, "hurtos" : {"actual" : 0 , "historial" : [{"año":2016, "valor":0}]}, "obras" : {"actual" : 0 , "historial" : ""}, "nombre" : "Porvenir", "poblacion" : 3659 }
+					]
+				}
+			]
+	}	
+}

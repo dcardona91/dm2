@@ -1,0 +1,6 @@
+[
+{"usuario": "lbedoya", "pnom" : "León", "snom" : "Mario", "pape" : "Bedoya", "sape" : "López", "correo" : "alcaldia@itagui.gov.co", "ocupacion" :"Alcalde", "img" : "alcalde.jpg", "rol" : "admin", "salt" : "6<xpXgS", "pass" : "65xOG1y9iE1BKmlRKQmp2C7C4XY="},
+{"usuario": "haderc", "pnom" : "Hader", "snom" : "Andres", "pape" : "Cataño", "sape" : "Alzate", "correo" : "haderc@gmail.com", "ocupacion" :"Desarrollador", "img" : "hader.jpg", "rol" : "dev", "salt" : "DZXc'55", "pass" : "wK2WbIeUFR2ywxHAldona1MiBn4="},
+{"usuario": "dcardona", "pnom" : "Deivid", "snom" : "Alonso", "pape" : "Cardona", "sape" : "Loaiza", "correo" : "alonsoloaiza@gmail.com", "ocupacion" :"Desarrollador", "img" : "deivid.jpg", "rol" : "dev", "salt" : "3Rue[M7", "pass" : "cH4rpfnNeaEyYy1KnH00eLx93Zs="},
+{"usuario": "cnarvaez", "pnom" : "Carlos", "snom" : "Mario", "pape" : "Narvaez", "sape" : "", "correo" : "cprom@gmail.com", "ocupacion" :"Desarrollador", "img" : "carlos.jpg", "rol" : "dev", "salt" : "3Rue[M7", "pass" : "cH4rpfnNeaEyYy1KnH00eLx93Zs="}
+]

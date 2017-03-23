@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Bienvenido</title>
+	<script type="text/javascript">	 	 
+		if (sessionStorage.getItem("usuario") === null) {
+		window.location.href = 'login.html';
+	}
+	</script>
+	<!--
+	===================== ESTILOS SISTEMA ========================
+	 -->
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	 <link rel="stylesheet" href="css/font-awesome.min.css">
+	 <link rel="stylesheet" href="css/normalize.css">
+	 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	 <!--
+	=================== FIN ESTILOS SISTEMA ====================== 
+	===================== PLUGINS SISTEMA ========================
+	 -->	
+	 <script type="text/javascript" src="cordova.js"></script> 
+	 <script type="text/javascript" src="js/jquery-2.2.4.min.js" ></script>	 
+	 <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+	 <script type="text/javascript" src="js/prefixfree.min.js" ></script>
+	  <!--
+	=================== FIN PLUGINS SISTEMA ====================== 
+	===================== ESTILOS PROPIOS ========================
+	 -->
+	 <link rel="stylesheet" href="css/custom.css">
+</head>
+<body style="background-image: url(images/background/background-itagui.jpg);background-size: 100%;background-position-y: -27%;">
+<!-- input escodnido con el nombre de la pagina para cargar sus datos desde custom.js -->
+<input type="hidden" id="page-name" value="inicio">
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+<!-- Aquí se carga el menu -->
+</nav>
+<!-- barra superior con el logo de la aplicacion -->
+<header class="container">
+	<div class="row header-container">
+		<div class="col-xs-2">
+		<!-- boton del menu -->
+			<a href="" id="control-menu">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		<div class="col-xs-10 centrar titulo-seccion">
+			<figure>
+				<!-- logo de la aplicacion -->
+				<img id="logo" src="images/logo.png" alt="">
+			</figure>
+		</div>
+	</div>
+</header>
+<div id="usuario" class="container">
+	<div class="row">
+		<div class="col-lg-12 centrar">
+			<figure class="usuario-imagen">
+				<!-- imagen de usuario -->
+				<img id="img-user" src="http://placehold.it/250x250" alt="Imagen de usuario">
+				<!-- informacion del municipio -->
+				<figcaption>
+					<h3 class="usuario-nombre">Nombre del usuario</h3>
+					<small class="usuario-cargo">Cargo del usuario</small>
+				</figcaption>
+			</figure>
+		</div>
+	</div>	
+</div>
+<!-- informacion del municipio -->
+<div id="municipio" class="container">
+	<div class="row">
+		<div class="col-lg-12 centrar centerTitle">
+			<h1 class="nombre-municipio">Nombre Municipio</h1>
+		</div>
+	</div>
+	<div class="row">
+		<!-- Indicadores municipio -->
+		<section class="col-lg-12 centrar estadisticas">
+		<!-- datos de ejemplo -->
+			<!-- <article class="row">
+				<div class="col-xs-6 der">
+					<p><strong>Indicador</strong></p>
+				</div>
+				<div class="col-xs-6 izq">
+					<p>999999</p>
+				</div>
+			</article> -->
+		</section>
+	</div>	
+</div>
+<!--===================== SCRIPTS PROPIOS ========================-->
+	
+    <script type="text/javascript" src="js/index.js"></script>   
+	<script type="text/javascript" src="js/custom.js" ></script>
+	<script  type="text/javascript">
+	//codigo para que el menu se cierre cuendo se hace clic por fuera
+		$('#cbp-spmenu-s1').click(function(e){
+			e.stopPropagation();
+		});
+
+		$("#control-menu").click(function(e) {
+			e.stopPropagation();
+			e.preventDefault();
+			$('#cbp-spmenu-s1').addClass('cbp-spmenu-open' );
+		});
+
+		$(document).click(function(e) {
+			$('#cbp-spmenu-s1').removeClass('cbp-spmenu-open' );
+		});
+	</script>
+	<script type="text/javascript">
+        //app.initialize();
+    </script>
+</body>
+</html>
